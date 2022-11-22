@@ -1,0 +1,10 @@
+var speed1=prompt("enter the speed1");
+var speed2=prompt("enter the speed2");
+speed1=parseInt(speed1);
+speed2=parseInt(speed2);
+var speed=speed1-speed2;
+alert(speed);
+var dis=prompt("enter the dis");
+dis=parseInt(dis);
+var time=dis/speed;
+alert(time);
