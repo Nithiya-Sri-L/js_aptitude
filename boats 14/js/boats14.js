@@ -1,0 +1,10 @@
+var stillSpeed=prompt("enter the stillSpeed");
+var streamSpeed=prompt("enter the streamSpeed");
+stillSpeed=parseInt(stillSpeed);
+streamSpeed=parseInt(streamSpeed);
+var downSpeed=stillSpeed+streamSpeed;
+alert(downSpeed);
+var downDis=prompt("enter the downDis");
+downDis=parseInt(downDis);
+var downTime=downDis/downSpeed;
+alert(downTime);
