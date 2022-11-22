@@ -1,0 +1,12 @@
+var dis1=prompt("enter the dis1");
+dis1=parseInt(dis1);
+var time=prompt("enter the time");
+time=parseInt(time);
+speed=dis1/time;
+alert(speed);
+var dis2=prompt("enter the dis2");
+dis2=parseInt(dis2);
+dis=dis1+dis2;
+alert(dis);
+var time=dis/speed;
+alert(time);
